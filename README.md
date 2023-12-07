@@ -1,5 +1,5 @@
 
-# Project Title
+# Notes App Redux
 
 This is a simple notes app built using React.js and Redux, allowing users to create, edit, and delete notes.
 

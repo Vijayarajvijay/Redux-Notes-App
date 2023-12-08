@@ -304,7 +304,7 @@ span{
 }
 .wrapper{
   width:1400px;
-  margin-right: 118px;
+margin-right: 0px;
  
 }
 header{
@@ -347,7 +347,7 @@ text-transform: uppercase;
   position: absolute;
   width: 600px;
   height: 300px;
-  margin: 20% 30%;
+  margin: 13% 30%;
   text-align: center;
 }
 .welcome-text h1{

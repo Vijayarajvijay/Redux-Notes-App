@@ -356,7 +356,7 @@ text-transform: uppercase;
   text-align: center;
   color: #ffffff;
   text-transform: uppercase;
-  font-size: 70px !important;
+  font-size: px !important;
   font-family: 'Libre Baskerville', serif;
   margin-top: -170px;
 }
@@ -524,12 +524,12 @@ font-size: 30px;
     );
   }
 }
-@media only screen and (max-width: 768px) {
-  /* Adjust the spacing or margins here */
+/* @media only screen and (max-width: 768px) { 
+  
   .wrapper {
     margin-top: 1000px;
    
-    /* Example: Reduce padding or margin around the container */
+    
   }
 
   body{
@@ -541,7 +541,4 @@ font-size: 30px;
     margin-top: -450px;
   }
   
-  /* You can target specific elements to adjust their spacing */
- 
-  /* Add more specific rules as needed for your layout */
-}
+} */

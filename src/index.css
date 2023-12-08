@@ -80,6 +80,7 @@ span{
   font-family:'Montserrat', sans-serif;
 }
 
+
 .side{
   background-color: #203562;
   width: 290px;
@@ -103,10 +104,12 @@ span{
   
 
 }
-#container-fluid{
-  width: 1086px;
-  height: 1024px;
-  background-color: #E3E8F8 ;
+#container-fluid {
+  width: 1190px;
+  height: 1066px;
+  background-color: #E3E8F8;
+  padding-left: 52px;
+  margin-right: -97px;
 }
 .addnote{
   width: 1000px;
@@ -248,7 +251,7 @@ span{
    @media (max-height: 500px) {
      #hero {
        
-       height: 120vh;
+       height: 50vh;
      }
      
    }
@@ -377,9 +380,10 @@ text-transform: uppercase;
 
 
 
-@media (max-width:600px){
+@media (min-width:600px){
   .wrapper {
 width: 100%;
+
 }
 .logo {
 float: none;
@@ -516,4 +520,25 @@ font-size: 30px;
       0% 100%
     );
   }
+}
+@media only screen and (max-width: 768px) {
+  /* Adjust the spacing or margins here */
+  .wrapper {
+    margin-top: 1000px;
+   
+    /* Example: Reduce padding or margin around the container */
+  }
+
+  body{
+    height: 700px;
+  }
+
+  .welcome-text{
+    position:relative;
+    margin-top: -450px;
+  }
+  
+  /* You can target specific elements to adjust their spacing */
+ 
+  /* Add more specific rules as needed for your layout */
 }

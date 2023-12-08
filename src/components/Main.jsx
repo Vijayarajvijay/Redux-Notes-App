@@ -22,7 +22,7 @@ Welocme  to our
 <br/>
 <br/>
 
-  <div class="content" style={{paddingLeft:"250px",marginLeft:"40px"}} >
+  <div class="content"  >
     <h2 style={{fontSize:"75px"}}>Nots App</h2>
     <h2 style={{fontSize:"75px"}}>Nots App</h2>
   </div>
@@ -32,7 +32,7 @@ Welocme  to our
 <br/>
 <br/>
 
-<button class="button-64 " onClick={()=>navigate('/notes')} style={{marginLeft:"180px"}} role="button"><span class="text">Get Notes</span></button>
+<button class="button-64 " onClick={()=>navigate('/notes')} style={{marginLeft:"640px"}} role="button"><span class="text">Get Notes</span></button>
   
 
     </div>

@@ -32,7 +32,7 @@ Welocme  to our
 <br/>
 <br/>
 
-<button class="button-64 " onClick={()=>navigate('/notes')} style={{marginLeft:"640px"}} role="button"><span class="text">Get Notes</span></button>
+<button class="button-64 " onClick={()=>navigate('/notes')} style={{marginLeft:"190px"}} role="button"><span class="text">Get Notes</span></button>
   
 
     </div>

@@ -104,12 +104,10 @@ span{
   
 
 }
-#container-fluid {
-  width: 1190px;
-  height: 1066px;
-  background-color: #E3E8F8;
-  padding-left: 52px;
-  margin-right: -97px;
+#container-fluid{
+  width: 1086px;
+  height: 1024px;
+  background-color: #E3E8F8 ;
 }
 .addnote{
   width: 1000px;
@@ -251,7 +249,7 @@ span{
    @media (max-height: 500px) {
      #hero {
        
-       height: 50vh;
+       height: 120vh;
      }
      
    }
@@ -311,7 +309,7 @@ span{
 }
 header{
   background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url('./assets/bg.png');
-  width:100% ;
+  
   height: 100vh;
   
   background-position: center center;
@@ -349,16 +347,15 @@ text-transform: uppercase;
   position: absolute;
   width: 600px;
   height: 300px;
-  /* margin: 0% 0%; */
+  margin: 20% 30%;
   text-align: center;
 }
 .welcome-text h1{
   text-align: center;
-  color: #ffffff;
+  color: #fff;
   text-transform: uppercase;
-  font-size: px !important;
+  font-size: 60px;
   font-family: 'Libre Baskerville', serif;
-  margin-top: -170px;
 }
 .welcome-text a{
   border: 1px solid #ada6a6 ;
@@ -381,10 +378,9 @@ text-transform: uppercase;
 
 
 
-@media (min-width:600px){
+@media (max-width:600px){
   .wrapper {
 width: 100%;
-
 }
 .logo {
 float: none;
@@ -441,6 +437,7 @@ font-size: 30px;
   touch-action: manipulation;
   white-space: nowrap;
   cursor: pointer;
+  
 }
 
 .button-64:active,
@@ -473,8 +470,8 @@ font-size: 30px;
 
 .content {
   position: relative;
-  margin-left: 100px !important;
-  padding-left:650px ;
+  margin-left: 250px;
+  padding-left: 40px;
 }
 
 .content h2 {
@@ -524,21 +521,3 @@ font-size: 30px;
     );
   }
 }
-/* @media only screen and (max-width: 768px) { 
-  
-  .wrapper {
-    margin-top: 1000px;
-   
-    
-  }
-
-  body{
-    height: 700px;
-  }
-
-  .welcome-text{
-    position:relative;
-    margin-top: -450px;
-  }
-  
-} */
